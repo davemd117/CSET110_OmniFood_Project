@@ -1,0 +1,711 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: #555;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+
+/* begin lecture 6 */
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('OmnifoodContents/hero.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    margin-top: 20px;
+}
+
+.navigation {
+    margin-top: 10px;
+}
+
+.navigation a {
+    border-bottom: 2px solid transparent; 
+    font-size: 18px; 
+    text-decoration: none; 
+    color: white; 
+    margin-left: 40px;
+}
+
+.navigation a:hover {
+    border-bottom: 2px solid orange;
+}
+
+.hero-text-box {
+    width: 1140px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero-text-box h1 {
+    font-weight: 300;
+    text-transform: uppercase;
+    word-spacing: 4px;
+    font-size: 240%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #fff;
+}
+
+.btn-full:hover, .btn-full:active {
+    border: 1px solid #cf6d17;
+}
+
+.btn-ghost:hover, .btn-ghost:active {
+    border: 1px solid #cf6d17;
+    color: #fff;
+}
+
+.btn:hover, .btn:active {
+    background-color: #cf6d17;
+
+    color: #fff;
+}
+
+.btn-full {
+    background-color: #e67e22;
+    border: 1px solid #e67e27;
+    color: #fff;
+}
+
+.btn-ghost {
+    color: #cf6d17;
+    border: 1px solid #cf6d17;
+    transition: color 1s;
+}
+
+/* end lecture 6 */
+
+
+
+/* lecture 7 */
+
+article {
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 5%;
+    margin-bottom: 1%;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 200%;
+}
+
+.intro {
+    text-align: left;
+    padding: 2.5% 18%;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #e67e22;
+    content: " ";
+    margin: auto;
+    margin-top: 30px;
+}
+
+.h3 {
+    padding-bottom: 5%;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    line-height: 150%;
+    font-size: 90%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.columns div {
+    width: 33%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.pictures {
+    display: flex;
+    background-color: black;
+    line-height: 0%;
+}
+
+.imgs {
+    opacity: .7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.img-container {
+    width: 25%;
+    overflow: hidden;
+}
+
+.imgs:hover{
+    opacity: 1;
+    transform: scale(1.00);
+}
+
+.icon-big {
+    font-size: 350%;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 10px;
+    --ionicon-stroke-width: 20px;
+}
+
+.article-2 {
+    background-color: rgb(238, 238, 238);
+}
+
+.phone-img {
+    height: 100%;
+    width: 40%;
+    display: flex;
+}
+
+.phone-img-div {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 5%;
+    height: 100%;
+    padding-bottom: 5%;
+}
+
+.how-it-works-div {
+    display: flex;
+    margin-top: 5%;
+}
+
+.hiw-div-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 3%;
+}
+
+.hiw-text-container {
+    display: flex;
+    width: 90%;
+    margin-top: 5%;
+    margin-bottom: -5%;
+    margin-left: 8%;
+}
+
+.hiw-p {
+    margin-right: 8%;
+}
+
+.number-icons {
+    color: #e67e22;
+    height: 60px;
+    width: 70px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 1em;
+    border: 2px solid #e67e22;
+    margin-right: 5%;
+}
+
+.numbers {
+    font-weight: 300;
+}
+
+.one, .two {
+    width: 45px;
+}
+
+.three {
+    width: 5%;
+    display: inline;
+}
+
+.apps-flex {
+    display: flex;
+    margin-top: 8%;
+    margin-bottom: 15%;
+    margin-left: 8%;
+}
+
+.apple-app {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.android-app {
+    height: 50px;
+}
+
+/* end lecture 7 */
+
+
+
+
+
+/*begin lecture 8 */
+
+.section-cities {
+    height: 600px;
+    text-align: center;
+}
+
+.section-cities h2 {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    padding-top: 50px;
+}
+
+.section-cities h2:after {
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #e67622;
+    content: " ";
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cities-flex-group {
+    display: flex;
+    justify-content: center;
+    width: 1140px;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 75px;
+}
+
+.cities-flex-item {
+    margin-right: 40px;
+}
+
+.cities-img {
+    width: 100%;
+}
+
+.cities-list {
+    list-style: none;
+    line-height: 150%;
+}
+
+.icon-small {
+    color: #e67e22;
+    margin-right: 5%;
+}
+
+.cities-links {
+    text-underline-offset: 15%;
+    text-decoration-thickness: .5px;
+}
+
+/* .cities-links:link{
+
+} */
+
+.cities-links:visited{
+    color: #e67e27;
+
+}
+
+.cities-links:hover{
+    color:#555;
+    text-decoration: none;
+}
+
+.cities-links:active{
+    color:#555;
+    text-decoration: none;
+}
+
+.bird-logo:hover {
+    color: #1DA1F2;
+    transition: .2s;
+}
+
+.bird-logo:active {
+    color: #1DA1F2; 
+}
+
+/* end lecture 8 */
+
+
+
+
+/* begin lecture 9 */
+
+.section-testimonials {
+    height: 500px;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('OmnifoodContents/back-customers.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section-testimonials h2 {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    padding-top: 50px;
+}
+
+.section-testimonials h2:after {
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #e67622;
+    content: " ";
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.testimonials-flex-group {
+    display: flex;
+    width: 1140px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.testimonials-flex-group div {
+    margin: .1% 2%;
+}
+
+.testimonials-flex-item {
+    color: white;
+    margin-right: 20px;
+}
+
+cite {
+    display: block;
+    padding-top: 10%;
+    font-size: smaller;
+}
+
+cite img {
+    border-radius: 100%;
+    height: 45px;
+    vertical-align: middle;
+}
+
+.quotes-text {
+    font-style: italic;
+    line-height: 150%;
+}
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+.section-meal-plans {
+    height: 700px;
+    text-align: center;
+    background-color: #F4F4F4;
+}
+
+.section-meal-plans h2 {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    padding-top: 50px;
+}
+
+.section-meal-plans h2:after {
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #e67622;
+    content: " ";
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.plans-flex-group {
+    display: flex;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.plans-flex-item {
+    width: 33%;
+    height: 450px;
+    background-color: white;
+    margin-right: 50px;
+    text-align: left;
+    padding: 10px 20px;
+}
+
+.plans-flex-item-top {
+    height: 42.5%;
+}
+
+.plans-flex-item-top h3 {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 110%;
+}
+
+.pricing-plans-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+.i-s-pricing {
+    padding-bottom: 3%;
+    padding-left: 5%;
+}
+
+.plans-flex-item-top-p1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-size: 300%;
+    color: #e67e27;
+}
+
+.plans-flex-item-middle {
+    height: 42.5%;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.plans-flex-item-bottom {
+    height: 15%;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.plans-list {
+    list-style: none;
+    line-height: 175%;
+    padding-top: 2%;
+}
+
+/* end lecture 9 */
+
+
+
+
+/* begin lecture 10 */
+
+.section-contact {
+    height: 550px;
+    background-image: URL(OmnifoodContents/sanfranciscobackground.PNG);
+
+}
+
+.section-contact h2 {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    padding-top: 50px;
+}
+
+.section-contact h2:after {
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #e67622;
+    content: " ";
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* .h2-container {
+
+} */
+
+.contact-form {
+    width: 100%;
+    background-color: rgb(238, 237, 237, 0.9);
+    margin: 0 auto;
+    height: 525px;
+    line-height: 200%;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2%;
+    opacity: 100%;
+}
+
+*:focus {
+    outline: none;
+}
+
+.input-box {
+    float: right;
+}
+
+#input1, #input2, #input3, #input4, #input5 {
+    font-size: 100%;
+} 
+
+#input5 {
+    height: 75px;
+    resize: both;
+}
+
+.label {
+    line-height: 200%;
+    padding-left: 5%;
+}
+
+.checkbox {
+    margin-right: 42%;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 60%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+.submit-button {
+    margin-left: 40%;
+}
+
+#form-button {
+    padding: 10px 30px;
+    font-size: 100%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.footer {
+    height: 200px;
+    background-color: #333;
+    text-align: center;
+    font-size: 80%;
+    color: grey;
+}
+
+.footer-flex-group {
+    display: flex;
+    width: 1140px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+}
+
+.footer-flex-item {
+    list-style: none;
+}
+
+.footer-flex-item a {
+    text-decoration: none;
+    color: grey;
+    padding-left: 20px;
+}
+
+.footer-logo-list {
+    font-size: 150%;
+}
+
+.footer-links:hover {
+    color: rgb(190, 190, 190);
+    transition: .2s;
+}
+
+.footer-links:active {
+    color: rgb(190, 190, 190); 
+}
+
+.fb:hover {
+    color: #004773;
+    transition: .2s;
+}
+
+.fb:active {
+    color: #004773; 
+}
+
+.gp:hover {
+    color: #ae1100;
+    transition: .2s;
+}
+
+.gp:active {
+    color: #ae1100; 
+}
+
+.ig:hover {
+    color: #c90072;
+    transition: .2s;
+}
+
+.ig:active {
+    color: #c90072; 
+}
+
+/* woohoo */
